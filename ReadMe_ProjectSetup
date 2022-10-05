@@ -1,0 +1,33 @@
+
+Project setup for include dependencies for Tomcat
+
+You need to add the "Maven Dependency" in the Deployment Assembly
+
+	1.right click on your project and choose properties.
+	2.click on Deployment Assembly.
+	3.click add
+	4.click on "Java Build Path Entries"
+	5.select Maven Dependencies"
+	6.click Finish.
+	7.Rebuild and deploy again
+
+Note: This is also applicable for non maven project.
+
+
+
+
+Start up the application :
+	1. Build and Run the application using Maven Build with   clean install 
+	2. Run As -> Run on server
+	
+	
+	
+Url
+
+	http://localhost:8080/SpringMVCCRUDSimple/
+  	
+  	
+  	
+   
+   
+   
